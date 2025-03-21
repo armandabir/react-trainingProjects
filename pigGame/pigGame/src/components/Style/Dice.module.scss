@@ -1,0 +1,7 @@
+.dice{
+    @apply absolute left-1/2 top-64 transform -translate-x-1/2 shadow-2xl;
+    height: 10rem;
+    img{
+        @apply h-full;
+    }
+}

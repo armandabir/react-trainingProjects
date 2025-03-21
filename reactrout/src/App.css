@@ -1,0 +1,28 @@
+
+ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: auto auto auto auto ;
+   margin: 0 auto;
+}
+
+.theme-dark{
+   color: white;
+   background-color: black;
+}
+
+.theme-light{
+   color: black;
+   background-color: azure;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 5px;
+}
+
+.container ul{
+   grid-column: 1 /span 4;
+
+}

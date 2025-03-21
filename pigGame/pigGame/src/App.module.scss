@@ -1,0 +1,18 @@
+main{
+    @apply relative w-100rem h-60rem bg-gray-500/35 shadow-xl rounded-lg overflow-hidden grid grid-cols-2;
+    filter: blur();
+    backdrop-filter: blur(200px);
+}
+
+
+.newGame{
+    @apply top-16;
+}
+
+.roll{
+    top: 39rem;
+}
+
+.hold{
+    top: 46rem;
+}

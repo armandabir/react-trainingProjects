@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: "Nunito",sans-serif;
+    @apply font-normal h-screen text-black bg-gradient-to-r from-red-500 to-purple-800 grid items-center justify-center
+  }

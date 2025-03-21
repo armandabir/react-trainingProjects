@@ -1,0 +1,38 @@
+.player{
+    @apply p-36 flex flex-col justify-center;
+
+    .name{
+        @apply relative text-7xl mb-4 text-center uppercase font-extrabold;
+    }
+    .score{
+        @apply text-center text-7xl font-extrabold text-red-500 mb-auto;
+    }
+
+    .current{
+        @apply bg-rose-700/80 rounded w-3/5 h-1/4 text-center mx-auto;
+
+        h3{
+            @apply p-3 text-3xl font-semibold m-3 text-red-50 uppercase;
+        }
+
+        p{
+            @apply p-3 text-4xl font-extrabold text-red-50;
+        }
+    }
+    
+   
+}
+
+.active{
+    @apply bg-slate-100/50;
+}
+
+.playerWinner {
+    background-color: #2f2f2f;
+  }
+  
+  .playerWinner .name {
+    font-weight: 700;
+    color: #c7365f;
+  }
+  

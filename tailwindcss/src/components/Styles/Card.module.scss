@@ -1,0 +1,39 @@
+.cardContainer{
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fafafa;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+.cardContainer:hover{
+    border-color: rgb(255, 244, 240);
+}
+
+
+.cardBtn {
+
+    padding: 8px 16px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darkred;
+    }
+
+    &:active {
+        background-color: crimson;
+    }
+}

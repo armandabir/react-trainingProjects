@@ -1,0 +1,25 @@
+.cardContainer{
+    @apply w-52 p-2 m-auto flex border flex-col gap-2
+     bg-slate-50 rounded-lg transition-all
+      duration-300 cursor-pointer shadow-lg;
+
+    &:hover{
+        @apply border-cyan-600;
+    }
+
+    }
+
+
+
+
+.cardBtn {
+    @apply px-2 p-2 bg-orange-700 text-white rounded-lg text-base cursor-pointer transition-all duration-300;
+
+    &:active{
+        @apply bg-red-500;
+    }
+    &:hover{
+        @apply bg-red-900;
+    }
+ 
+}

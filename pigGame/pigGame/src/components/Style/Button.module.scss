@@ -1,0 +1,14 @@
+.btn{
+    @apply absolute left-1/2 text-gray-700 bg-transparent border-none text-3xl uppercase cursor-pointer font-bold transition-all duration-200
+    bg-white rounded-full shadow-2xl p-5 transform -translate-x-2/4 ;
+
+    backdrop-filter: blure(10px);
+
+    &:active{
+        @apply -translate-x-1/2 translate-y-1;
+    }
+
+}
+
+
+
